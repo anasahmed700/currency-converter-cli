@@ -1,3 +1,4 @@
+#!  /usr/bin/env node
 import inquirer from 'inquirer';
 const currency = {
     USD: 1,
@@ -25,6 +26,7 @@ let user_answer = await inquirer.prompt([
         type: 'number'
     }
 ]);
+// declaring as "CurrencyRates" interface keys
 const fromCurrency = user_answer.from;
 const toCurrency = user_answer.to;
 let fromAmount = currency[fromCurrency];

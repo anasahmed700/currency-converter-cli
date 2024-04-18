@@ -1,6 +1,6 @@
 {
   "name": "@anasahmed700/currency_converter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "CLI based currency converter app written in typescript",
   "main": "index.js",
   "type": "module",
